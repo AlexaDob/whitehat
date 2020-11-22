@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background: content-box radial-gradient(crimson, navy);
+}
+
+#shoe,
+#mountian {
+    height: 300px;
+    margin-bottom: 30px
+}
+
+#bulb,
+#brain {
+    height: 300px;
+}
+.table {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.codingtable {
+    margin-left: 300px;
+    border: solid;
+    margin-bottom: 60px;
+    background: white;
+    border-color: black
+}
+#light,#brainer,#flowershoes,#sunset{
+    background: white;
+    border: solid;
+    border-color: gainsboro
+}
