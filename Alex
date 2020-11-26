@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title> Personal Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#welcome"> Home </a></li>
+        <li class="links"><a href="#videos"> My Videos </a></li>
+        <li class="links"><a href="#work"> Work </a></li>
+        <li class="links"><a href="#writings"> Writings </a></li>
+        <li class="links"> Contact </li>
+    </ul>
+    <section id="welcome">
+        <div class="image">
+            <img id="img1" src="Sir_Tim_Berners-Lee.jpg">
+            <h1> I'm <br><span id="name"> Tim Berners Lee </span></h1>
+            <h2> I'm the founder of the World Wide Web also known as WWW</h2>
+        </div>
+    </section>
+    <section id="bio">
+        <h1> Welcome </h1>
+        <div>
+            <p>Berners-Lee is the director of the World Wide Web Consortium (W3C) which oversees the continued development of the Web. He is also the founder of the World Wide Web Foundation and is a senior researcher and holder of the 3Com founders chair at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). He is a director of the Web Science Research Initiative (WSRI) and a member of the advisory board of the MIT Center for Collective Intelligence. In 2011, he was named as a member of the board of trustees of the Ford Foundation. He is a founder and president of the Open Data Institute and is currently an advisor at social network MeWe.
+
+                In 2004, Berners-Lee was knighted by Queen Elizabeth II for his pioneering work. In April 2009, he was elected a Foreign Associate of the National Academy of Sciences. He was named in Time magazine's list of the 100 Most Important People of the 20th century and has received a number of other accolades for his invention. He was honoured as the "Inventor of the World Wide Web" during the 2012 Summer Olympics opening ceremony in which he appeared working with a vintage NeXT Computer at the London Olympic Stadium. He tweeted "This is for everyone" which appeared in LCD lights attached to the chairs of the audience. He received the 2016 Turing Award "for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale".
+            </p>
+        </div>
+    </section>
+    <br>
+    <section id="videos">
+        <hr class="line">
+        <h1> Videos </h1>
+        <iframe width="1280" height="723" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/sSqZ_hJu9zA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <br>
+    <section id="work">
+        <hr class="line">
+        <h1> Work </h1>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee" frameborder="0"></iframe>
+    </section>
+    <br>
+    <section id="writings">
+        <hr class="line">
+        <h1> Writings </h1>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30/" target="_blank"> Article 1 </a>
+        <br>
+        <br>
+        <a class="article" href="https://www.nytimes.com/2019/11/24/opinion/world-wide-web.html" target="_blank"> Article 2 </a>
+    </section>
+</body>
+</html>
